@@ -77,9 +77,17 @@ def task_5():
     b = np.array([3.5, 0.17, 8.4, 0])
     print(a - 1.7 - b + 3)
 
+def task_6():
+    """Умножение вектора на скаляр"""
+    productivity = np.array([3.7, 4.8, 4.2, 7.2, 7.6])
+    first = 1.25 * productivity
+    second = 1.1 * productivity
+    print(first)
+    print(second)
+
 # task_1()
 # task_2()
 # task_3()
 # task_4()
-task_5()
-
+# task_5()
+# task_6()
