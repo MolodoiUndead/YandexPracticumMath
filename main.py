@@ -78,12 +78,17 @@ def task_5():
     print(a - 1.7 - b + 3)
 
 def task_6():
-    """Умножение вектора на скаляр"""
+    """Умножение и деление вектора на скаляр"""
     productivity = np.array([3.7, 4.8, 4.2, 7.2, 7.6])
     first = 1.25 * productivity
     second = 1.1 * productivity
     print(first)
     print(second)
+
+    a = np.array([60000, 100000, 80000, 65000, 73000])
+    print(a / 15)
+    print(a / 10)
+
 
 # task_1()
 # task_2()
